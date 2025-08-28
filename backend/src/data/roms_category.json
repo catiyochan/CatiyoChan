@@ -1,0 +1,64 @@
+{
+    "roms_category": [
+        {
+            "name" : "Nintendo Switch 1",
+            "slug" : "nintendo-switch-1",
+            "description" : "Nintendo Switch ROMs",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/0/04/Nintendo_Switch_logo%2C_square.png?20161020164732"
+        },
+        {
+            "name" : "Windows",
+            "slug" : "windows",
+            "description" : "Windows ROMs",
+            "icon" : "https://cdn-icons-png.flaticon.com/512/5804/5804809.png"
+        },
+        {
+            "name" : "PS3",
+            "slug" : "ps3",
+            "description" : "PlayStation 3 ROMs",
+            "icon" : "https://1000logos.net/wp-content/uploads/2025/03/PS3-Logo-768x432.png"
+        },
+        {
+            "name" : "PS4",
+            "slug" : "ps4",
+            "description" : "PlayStation 4 ROMs",
+            "icon" : "https://logos-world.net/wp-content/uploads/2025/01/PS4-Logo-500x281.png"
+        },
+        {
+            "name" : "PS2",
+            "slug" : "ps2",
+            "description" : "PlayStation 2 ROMs",
+            "icon" : "https://logowik.com/content/uploads/images/ps2-playstation-2-monogram5452.logowik.com.webp"
+        },
+        {
+            "name" : "PS Vita",
+            "slug" : "ps-vita",
+            "description" : "PlayStation Vita ROMs",
+            "icon" : "https://i.pinimg.com/564x/fe/02/a8/fe02a8d5641e6390ef39a3972c1e9dd8.jpg"
+        },
+        {
+            "name": "PSP",
+            "slug": "psp",
+            "description": "PlayStation Portable ROMs",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDj5g33B1gOFmeL-lbF__HVDTgmYKfr8BRA&s"  
+        },
+        {
+            "name" : "Nintendo 3DS",
+            "slug" : "nintendo-3ds",
+            "description" : "Nintendo 3DS ROMs",
+            "icon" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKL1vpfk1YUir2xQe3sKfq19CE6F4uDSlQ5w&s"
+        },
+        {
+            "name" : "Nintendo Wii",
+            "slug" : "nintendo-wii",
+            "description" : "Nintendo Wii ROMs",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wii_logo.png/1200px-Wii_logo.png"
+        },
+        {
+            "name" : "Xbox",
+            "slug" : "xbox",
+            "description" : "Xbox ROMs",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png"
+        }
+    ]
+}
