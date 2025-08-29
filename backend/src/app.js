@@ -17,6 +17,6 @@ app.use(cookieParser());
 
 import publicUserRoutes from "./routes/public.user.routes.js";
 
-app.use("/api/v1/public/user", publicUserRoutes);
+app.use("/catiyochan", publicUserRoutes);
 
 export { app };
