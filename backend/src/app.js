@@ -7,6 +7,8 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://catiyo-chan.vercel.app",
+  "https://catiyochan.fun",
+  "https://www.catiyochan.fun"
 ]
 
 app.use(
