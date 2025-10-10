@@ -1,6 +1,9 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import NodeCache from "node-cache";
+
+const cache = new NodeCache({ stdTTL: 300 }); // cache for 5 minutes
 
 const app = express();
 
@@ -28,6 +31,16 @@ app.use(express.json({limit: "16kb"}));
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
 app.use(cookieParser());
+
+// cache data is incomplete so rechaked the code and implement this 
+app.get("/catiyochan/games-list", async (req, res) => {
+  const cached = cache.get("games-list");
+  if (cached) return res.json(cached);
+
+  const data = await getGamesListFromDB(); // Replace with your DB fetch logic
+  cache.set("games-list", data);
+  res.json(data);
+});
 
 // Health check endpoint for load balancers and monitoring
 app.get('/health', (req, res) => {
