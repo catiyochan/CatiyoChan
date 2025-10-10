@@ -16,16 +16,28 @@ const gamelistData = JSON.parse(
   readFileSync(join(__dirname, "../data/gamelist.json"), "utf8")
 );
 
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true, useUnifiedTopology: true,
-})
-  .then(async () => {
-    await Gamelist.deleteMany({});
-    await Gamelist.insertMany(gamelistData.gamelist);
-    console.log("Game list imported successfully!");
-    process.exit();
+// Update the terminal command to run this script
+// node src/db/import.gamelist.js
+
+mongoose
+  .connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    // you can remove this line for mongoose 6+ warning fix
   })
-  .catch((error) => {   
+  .then(async () => {
+    // await Gamelist.deleteMany({});
+    // await Gamelist.insertMany(gamelistData.gamelist);
+    // console.log("Game list imported successfully!");
+   await Gamelist.updateOne(
+        {},
+        { $set: gamelistData.gamelist },
+        { upsert: true }
+      );
+      console.log("All games lists updated successfully!");
+      process.exit();
+  })
+  .catch((error) => {
     console.error("Error importing game list:", error);
     process.exit(1);
   });

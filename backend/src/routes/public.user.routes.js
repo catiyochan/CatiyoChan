@@ -25,7 +25,7 @@ import {
 } from "../controllers/help.center.controllers.js";
 import { requires } from "../controllers/requires.controllers.js";
 
-const router = Router();
+const router = Router(); 
 
 router.route("/roms-categories").get(getAllRomsCategories);
 

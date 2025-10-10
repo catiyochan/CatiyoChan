@@ -29,6 +29,11 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
 app.use(cookieParser());
 
+// Health check endpoint for load balancers and monitoring
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 import publicUserRoutes from "./routes/public.user.routes.js";
 
 app.use("/catiyochan", publicUserRoutes);
