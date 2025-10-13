@@ -77,6 +77,7 @@ const gameListSchema = new Schema({
   "Nintendo 3DS Game List": [gameSchema],
   "Nintendo Wii Game List": [gameSchema],
   "Xbox Game List": [gameSchema],
+  "Android Games List": [gameSchema],
 },
 {
   timestamps: true,

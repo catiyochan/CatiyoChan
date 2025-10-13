@@ -8,6 +8,7 @@ import { dirname, join } from "path";
 dotenv.config({ path: "./.env" });
 
 // Get current file path and directory
+//for run script terminal command: node src/db/import.roms.category.js
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 

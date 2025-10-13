@@ -59,6 +59,12 @@
             "slug" : "xbox",
             "description" : "Xbox ROMs",
             "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png"
+        },
+        {
+            "name" : "Android Games",
+            "slug" : "android-games",
+            "description" : "Android Games",
+            "icon" : "https://installornot.com/wp-content/uploads/2011/12/android-logo-font1.png"
         }
     ]
 }

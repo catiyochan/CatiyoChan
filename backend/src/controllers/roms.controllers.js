@@ -49,6 +49,7 @@ const getGamesByCategorySlug = asyncHandler(async (req, res, next) => {
         "nintendo-3ds": "Nintendo 3DS Game List",
         "nintendo-wii": "Nintendo Wii Game List",
         "xbox": "Xbox Game List",
+        "android-games": "Android Games List",
     };
     
     const gameListKey = categoryMap[slug];
@@ -121,6 +122,7 @@ const getGameById = asyncHandler(async (req, res, next) => {
         "nintendo-3ds": "Nintendo 3DS Game List",
         "nintendo-wii": "Nintendo Wii Game List",
         "xbox": "Xbox Game List",
+        "android-games": "Android Games List",
     };
 
     for (const [slug, categoryKey] of Object.entries(categoryMap)) {

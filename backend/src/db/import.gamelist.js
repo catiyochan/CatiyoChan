@@ -35,6 +35,20 @@ mongoose
         { upsert: true }
       );
       console.log("All games lists updated successfully!");
+
+    //  const newGamelist = await Gamelist.create(gamelistData.gamelist);
+    // console.log("Game list imported successfully!");
+    
+    // // Verify the import
+    // const verify = await Gamelist.findOne({});
+    // console.log("\n=== VERIFICATION ===");
+    // console.log("Android games:", verify["Android Game List"]?.length || 0);
+    // console.log("Xbox games:", verify["Xbox Game List"]?.length || 0);
+    // console.log("PS4 games:", verify["PS4 Game List"]?.length || 0);
+    
+    // if (verify["Android Game List"]?.length > 0) {
+    //   console.log("\nFirst Android game:", verify["Android Game List"][0].game_name);
+    // }
       process.exit();
   })
   .catch((error) => {

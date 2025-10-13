@@ -18181,6 +18181,44 @@
                     "description": "Army of Two: The 40th Day, released in 2010, continues Rios and Salem’s mercenary adventures in a shattered Shanghai. Enhanced co-op mechanics, moral choices, and weapon crafting deepen gameplay. Gritty visuals and a tense soundtrack amplify chaos. Multiplayer and co-op modes ensure replayability. Praised for its teamwork focus, The 40th Day appeals to shooter fans seeking cooperative, action-packed missions with strategic depth and intense battles."
                 }
             }
+        ],
+        "Android Games List": [
+            {
+                "game_name": "WWE 2K25 Android Port",
+                "slug": "wwe-2k25",
+                "game_id": 1,
+                "game_image": "https://upload.wikimedia.org/wikipedia/en/5/53/WWE_2k25_cover.jpg",
+                "game_size": "2.59 GB",
+                "game_category": "Fighting game, Sports Video Game, Simulation Video Game, Action game, Simulation Game, Sports",
+                "game_details": {
+                    "console": "PlayStation 5, PlayStation 4, Xbox One, Xbox Series X and Series S, Microsoft Windows, Android",
+                    "publisher": "2K Games",
+                    "released": "3 Oct 2025 ",
+                    "developer": " Visual Concepts",
+                    "filesize": "2.59 GB",
+                    "genre": "Fighting game, Sports Video Game, Simulation Video Game, Action game, Simulation Game, Sports",
+                    "downloadLink": "https://gplinks.co/AboK",
+                    "description": "WWE 2K25 is a professional wrestling sports video game developed by Visual Concepts and published by 2K. It is the twenty-fifth overall installment of the video game series based on WWE, the eleventh game under the WWE 2K banner, and the successor to WWE 2K24."
+                }
+            },
+            {
+                "game_name": "Hollow Knight: Silksong",
+                "slug": "hollow-knight-silksong",
+                "game_id": 2,
+                "game_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjvCLZKOHgiAi-HOVTJbbGYamQYov-EQ0eaA&s",
+                "game_size": "1.58 GB",
+                "game_category": "Metroidvania, Fighting game, Action-adventure game",
+                "game_details": {
+                    "console": "Android",
+                    "publisher": "Team Cherry",
+                    "released": "4 September 2025",
+                    "developer": "Team Cherry",
+                    "filesize": "1.58 GB",
+                    "genre": "Metroidvania, Fighting game, Action-adventure game",
+                    "downloadLink": "https://gplinks.co/mvRkXL",
+                    "description": "Hollow Knight: Silksong is an upcoming action-adventure Metroidvania video game developed and published by Team Cherry. It is a sequel to the 2017 game Hollow Knight. The game was announced in February 2019 and is planned for release on Android."
+                }
+            }
         ]
     }
 }
