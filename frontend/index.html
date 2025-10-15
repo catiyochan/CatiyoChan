@@ -5,40 +5,12 @@
     <link rel="icon" type="image/png" href="/catiyochan-logo.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/catiyochan-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CatiyoChan</title>
     
-    <!-- Prerender.io Bot Detection Script with Token -->
-    <script>
-      (function() {
-        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        var isBot = /bot|googlebot|crawler|spider|robot|crawling|prerender|bingbot|yandex|baidu|duckduckbot|slurp|facebookexternalhit|twitterbot|linkedinbot|whatsapp|telegram/i.test(userAgent);
-        
-        if (isBot) {
-          var prerenderUrl = 'https://service.prerender.io/https://catiyochan.fun' + window.location.pathname + window.location.search;
-          
-          fetch(prerenderUrl, {
-            headers: {
-              'X-Prerender-Token': 'J8gekf0hflXPdexJLBsn'
-            }
-          })
-          .then(function(response) {
-            if (response.ok) {
-              return response.text();
-            }
-            throw new Error('Prerender failed');
-          })
-          .then(function(html) {
-            document.open();
-            document.write(html);
-            document.close();
-          })
-          .catch(function(error) {
-            console.error('Prerender error:', error);
-            // Fallback to normal rendering if prerender fails
-          });
-        }
-      })();
-    </script>
+    <!-- Prerender Meta Tags -->
+    <meta name="fragment" content="!">
+    <meta name="prerender-status-code" content="200">
+    
+    <title>CatiyoChan</title>
   </head>
   <body>
     <div id="root"></div>
@@ -63,21 +35,3 @@
     </script>
   </body>
 </html>
-```
-
----
-
-## How to Get Your Prerender Token:
-
-1. Go to your **Prerender.io Dashboard**
-2. Look for **"API Token"** or **"Token"** section (usually in Settings or Overview)
-3. Copy the token (looks like: `AbCdEfGh1234567890`)
-4. Replace `YOUR_PRERENDER_TOKEN_HERE` in the script above
-
----
-
-## Alternative: Test with Token in URL
-
-You can also test immediately by adding the token to the URL:
-```
-https://service.prerender.io/https://catiyochan.fun?_prerenderToken=YOUR_TOKEN_HERE
