@@ -83,6 +83,8 @@ const EmulatorDetailScreen = () => {
     );
   }
 
+  const embedUrl = "https://www.youtube.com/embed/GfdOMIFUwHg";
+
   const details = emulatorData.emulator_details || {};
   
   // Fallback data for testing
@@ -170,6 +172,22 @@ const EmulatorDetailScreen = () => {
               />
             </div>
           </div>
+
+           {/* YouTube Video */}
+              {embedUrl && (
+                <div className=" mt-6 w-full max-w-2xl mx-auto">
+                  <h3 className="text-xl font-semibold mb-3 text-center">How to Open Link</h3>
+                  <div className="relative aspect-video">
+                    <iframe
+                      className="absolute top-0 left-0 w-full h-full rounded-lg border-0"
+                      src={embedUrl}
+                      title="YouTube video player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </div>
+              )}
           
           {/* Description section  */}
           <div className="flex flex-col justify-center items-start p-4">
@@ -285,6 +303,22 @@ const EmulatorDetailScreen = () => {
               </div>
             </div>
           </div>
+
+           {/* YouTube Video */}
+              {embedUrl && (
+                <div className=" mt-6 w-full max-w-2xl mx-auto">
+                  <h3 className="text-xl font-semibold mb-3 text-center">How to Open Link</h3>
+                  <div className="relative aspect-video">
+                    <iframe
+                      className="absolute top-0 left-0 w-full h-full rounded-lg border-0"
+                      src={embedUrl}
+                      title="YouTube video player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </div>
+              )}
           
           {/* Description section  */}
           <div className="flex flex-col justify-center items-start p-4">
