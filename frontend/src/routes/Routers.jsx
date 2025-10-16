@@ -11,6 +11,8 @@ import EmulatorDetailScreen from "../pages/EmulatorDetailScreen";
 import RequiresRom_Emu from "../pages/RequiresRom_Emu";
 import BlogScreen from "../pages/BlogScreen";
 import SearchResultsScreen from "../pages/SearchResultsScreen";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import TermsAndConditions from "../pages/TermsAndConditions";
 
 // Industrial Standard: Export the router directly instead of a function
 export const router = createBrowserRouter([
@@ -61,6 +63,14 @@ export const router = createBrowserRouter([
       {
         path: "blog",
         element: <BlogScreen/>
+      },
+      {
+        path: "privacy-policy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "terms-and-conditions",
+        element: <TermsAndConditions />,
       }
     ],
   },
