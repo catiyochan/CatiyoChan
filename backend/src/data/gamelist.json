@@ -1800,6 +1800,24 @@
                     "downloadLink": "https://gplinks.co/tmxjiJ2E",
                     "description": "Hollow Knight: Silksong is an upcoming action-adventure Metroidvania game developed and published by Team Cherry. It is the sequel to the critically acclaimed game Hollow Knight. In Silksong, players take on the role of Hornet, a character from the original game, as she embarks on a journey through a new kingdom filled with unique enemies, challenging platforming sections, and intricate lore. The game promises to build upon the mechanics and atmosphere that made Hollow Knight a beloved title, with new abilities, combat styles, and a fresh storyline. Fans of the original are eagerly anticipating its release, which is scheduled for September 4, 2025."
                 }
+            },
+            {
+                "game_name": "Pokémon Legends: Z-A",
+                "slug": "pokemon-legends-z-a",
+                "game_id": 105,
+                "game_image": "https://m.media-amazon.com/images/I/81Ug+SAITXL._UF1000,1000_QL80_.jpg",
+                "game_size": "4.5 GB",
+                "game_category": "Adventure game, Action role-playing game",
+                "game_details": {
+                    "console": "Nintendo Switch 2, Nintendo Switch",
+                    "publisher": "Nintendo, The Pokémon Company, Nintendo of America Inc.",
+                    "released": "16 October 2025",
+                    "developer": "Game Freak, Creatures Inc.",
+                    "filesize": "4.5 GB",
+                    "genre": "Adventure game, Action role-playing game",
+                    "downloadLink": "https://gplinks.co/CfEB5",
+                    "description": "Pokémon Legends: Z-A  is a 2025 action role-playing game developed by Game Freak and published by Nintendo and The Pokémon Company for the Nintendo Switch and Nintendo Switch 2.Part of the ninth generation of Pokémon games, it serves as a sequel to Pokémon X and Y (2013) and the second entry in the Pokémon Legends sub-series, following Pokémon Legends: Arceus (2022).The game takes place entirely in Lumiose City, located in the Kalos region.Pokémon Legends: Z-A was first announced in February 2024 as a Nintendo Switch exclusive, later confirmed to receive an enhanced version for the Switch 2. It was officially released on October 16, 2025, to generally positive reviews from critics and players alike.A DLC expansion, titled Pokémon Legends: Z-A – Mega Dimension, has also been announced. \n Gameplay \n At the start of the game, players can choose from three starter Pokémon: Chikorita and Totodile (from Pokémon Gold and Silver), and Tepig (from Pokémon Black and White). Unlike previous Pokémon games that featured traditional turn-based combat, Pokémon Legends: Z-A introduces a real-time battle system. This system emphasizes positioning, timing, and movement, allowing both trainers and Pokémon to move freely and dodge attacks during battles. Players can collect Mega Energy by dealing damage to opponents, which fills a Mega Gauge used to temporarily Mega Evolve their Pokémon. The duration of Mega Evolution can be extended by continuing to deal damage during combat. A new feature in the game is the Z-A Royale, a nighttime battle competition held in special Battle Zones throughout Lumiose City. Trainers can launch pre-emptive strikes against opponents — but must also defend against surprise attacks, which can temporarily stun their Pokémon Side quests appear as bonus cards, offering objectives that grant points toward rank promotions and additional rewards when completed. The game also includes a multiplayer mode called the Battle Club, where up to four players can compete in Link Battles to defeat the most Pokémon within a time limit, or engage in Ranked Battles to earn ranking points.Additionally, character customization returns, offering significantly improved outfit and appearance options."
+                }
             }
         ],
         "PS3 Game List": [
@@ -16366,7 +16384,7 @@
             {
                 "game_name": "Gears of War",
                 "slug": "gears-of-war",
-                "game_id": 2,   
+                "game_id": 2,
                 "game_image": "https://m.media-amazon.com/images/I/81QrC3yvQ6L.jpg",
                 "game_size": "7.3 GB",
                 "game_category": "Third-person shooter",

@@ -1,8 +1,8 @@
 {
     "roms_category": [
         {
-            "name" : "Nintendo Switch 1",
-            "slug" : "nintendo-switch-1",
+            "name" : "Nintendo Switch",
+            "slug" : "nintendo-switch",
             "description" : "Nintendo Switch ROMs",
             "icon" : "https://upload.wikimedia.org/wikipedia/commons/0/04/Nintendo_Switch_logo%2C_square.png?20161020164732"
         },
