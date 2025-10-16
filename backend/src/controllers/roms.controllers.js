@@ -39,7 +39,7 @@ const getGamesByCategorySlug = asyncHandler(async (req, res, next) => {
     // Map slug to gamelist key 
     // and game category increase then update this map 
     const categoryMap = {
-        "nintendo-switch-1": "Nintendo Switch Game List",
+        "nintendo-switch": "Nintendo Switch Game List",
         "windows": "Windows Game List",
         "ps3": "PS3 Game List",
         "ps4": "PS4 Game List",
@@ -112,7 +112,7 @@ const getGameById = asyncHandler(async (req, res, next) => {
     let foundCategory = null;
 
     const categoryMap = {
-        "nintendo-switch-1": "Nintendo Switch Game List",
+        "nintendo-switch": "Nintendo Switch Game List",
         "windows": "Windows Game List",
         "ps3": "PS3 Game List",
         "ps4": "PS4 Game List",
