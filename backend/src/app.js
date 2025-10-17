@@ -14,7 +14,7 @@ app.use(
     .whitelisted(['catiyochan.fun', 'www.catiyochan.fun'])
 );
 
-app.get("/*", prerender);
+// app.get("/*", prerender);
 
 const allowedOrigins = [
   "http://localhost:5173",
